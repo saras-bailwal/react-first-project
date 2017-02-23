@@ -1,0 +1,693 @@
+/*
+ * The users reducer will always return an array of users no matter what
+ * You need to return something, so if there are no users then just return an empty array
+ * */
+
+export default function () {
+    return [
+        // {
+        //     id: 1,
+        //     first: "Bucky",
+        //     last: "Roberts",
+        //     age: 71,
+        //     description: "Bucky is a React developer and YouTuber",
+        //     thumbnail: "http://i.imgur.com/7yUvePI.jpg"
+        // },
+        // {
+        //     id: 2,
+        //     first: "Joby",
+        //     last: "Wasilenko",
+        //     age: 27,
+        //     description: "Joby loves the Packers, cheese, and turtles.",
+        //     thumbnail: "http://i.imgur.com/52xRlm8.png"
+        // },
+        // {
+        //     id: 3,
+        //     first: "Madison",
+        //     last: "Williams",
+        //     age: 24,
+        //     description: "Madi likes her dog but it is really annoying.",
+        //     thumbnail: "http://i.imgur.com/4EMtxHB.png"
+        // }
+        {
+            "id": 223059,
+            "title": "top deal noti",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 41,
+            "image": "https://cdnstaging.desidime.com/topics/photos/223059/medium/becomeAfan.PNG?1482840496",
+            "score": 2,
+            "created_at": 1482840511000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/top-deal-noti?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 181,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/flipkart"
+                },
+                "id": 1,
+                "name": "Flipkart",
+                "image": "https://cdnstaging.desidime.com/merchants/1/medium/becomeAfan.PNG?1470143763",
+                "permalink": "flipkart",
+                "recommendation": 14,
+                "recommendation_flag": true,
+                "average_rating": "2.9"
+            },
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        },
+        {
+            "id": 222814,
+            "title": "Shoes at unbelivable price on Flipkart-lotto sports shoes",
+            "off_percent": "72",
+            "current_price": 999,
+            "original_price": 3999,
+            "comments_count": 54,
+            "image": "https://cdnstaging.desidime.com/topics/photos/222814/medium/white-royal-blu-navigator-lotto-9-200x200-imadzrghjyx9yuc8.jpeg?1467101185",
+            "score": 7,
+            "created_at": 1482825185000,
+            "vote_value": 1,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/shoes-at-unbelivable-price-on-flipkart?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 1806,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/flipkart"
+                },
+                "id": 1,
+                "name": "Flipkart",
+                "image": "https://cdnstaging.desidime.com/merchants/1/medium/becomeAfan.PNG?1470143763",
+                "permalink": "flipkart",
+                "recommendation": 14,
+                "recommendation_flag": true,
+                "average_rating": "2.9"
+            },
+            "user": {
+                "id": 66816,
+                "name": "rajdesidime",
+                "image": "https://cdnstaging.desidime.com/avatars/66816/large/zoo8_1548675i.jpg?1387297655",
+                "rank": "Deal Captain",
+                "current_dimes": 228,
+                "karma": 7598,
+                "fpd_count": 0
+            }
+        },
+        {
+            "id": 230223,
+            "title": "4th fpd",
+            "off_percent": "4",
+            "current_price": 5353,
+            "original_price": 5555,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230066/medium/becomeAfan.PNG?1481203165",
+            "score": 2,
+            "created_at": 1482821567000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/4th-fpd?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 16,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 99973,
+                "name": "test13",
+                "image": "http://cdn1.desidime.com/avatars/default/large/missing.png",
+                "rank": "Deal Cadet",
+                "current_dimes": 154,
+                "karma": 620,
+                "fpd_count": 4
+            }
+        },
+        {
+            "id": 230222,
+            "title": "3rd fdp",
+            "off_percent": "0",
+            "current_price": 5555,
+            "original_price": 5555,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/222814/medium/white-royal-blu-navigator-lotto-9-200x200-imadzrghjyx9yuc8.jpeg?1467101185",
+            "score": 1,
+            "created_at": 1482821431000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/3rd-fdp?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 10,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 99973,
+                "name": "test13",
+                "image": "http://cdn1.desidime.com/avatars/default/large/missing.png",
+                "rank": "Deal Cadet",
+                "current_dimes": 154,
+                "karma": 620,
+                "fpd_count": 4
+            }
+        },
+        {
+            "id": 230221,
+            "title": "2nf FPD deal",
+            "off_percent": "17",
+            "current_price": 5000,
+            "original_price": 6000,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/222814/medium/white-royal-blu-navigator-lotto-9-200x200-imadzrghjyx9yuc8.jpeg?1467101185",
+            "score": 0,
+            "created_at": 1482821374000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/2nf-fpd-deal?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 8,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 99973,
+                "name": "test13",
+                "image": "http://cdn1.desidime.com/avatars/default/large/missing.png",
+                "rank": "Deal Cadet",
+                "current_dimes": 154,
+                "karma": 620,
+                "fpd_count": 4
+            }
+        },
+        {
+            "id": 230137,
+            "title": "thread for  fpd credit",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/222814/medium/white-royal-blu-navigator-lotto-9-200x200-imadzrghjyx9yuc8.jpeg?1467101185",
+            "score": 1,
+            "created_at": 1482758266000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/thread-for-fpd-credit?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 23,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        },
+        {
+            "id": 230194,
+            "title": "Test of Automated badges for 'Debutant' 2",
+            "off_percent": "44",
+            "current_price": 6786,
+            "original_price": 12154,
+            "comments_count": 2,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230194/medium/Wrong_count_in_sticky.png?1482733374",
+            "score": -1,
+            "created_at": 1482733374000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/test-of-automated-badges-for-debutant-2?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 48,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 99972,
+                "name": "test10",
+                "image": "http://cdn1.desidime.com/avatars/default/large/missing.png",
+                "rank": "Deal Cadet",
+                "current_dimes": 83,
+                "karma": 140,
+                "fpd_count": 1
+            }
+        },
+        {
+            "id": 230183,
+            "title": "Thisn  is a deal  for Price compare",
+            "off_percent": "3",
+            "current_price": 6786,
+            "original_price": 7000,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/222814/medium/white-royal-blu-navigator-lotto-9-200x200-imadzrghjyx9yuc8.jpeg?1467101185",
+            "score": 0,
+            "created_at": 1482488201000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/thisn-is-a-deal-for-price-compare?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 34,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 99964,
+                "name": "nalin.dwivedi887",
+                "image": "http://cdn1.desidime.com/avatars/default/large/missing.png",
+                "rank": "Deal Cadet",
+                "current_dimes": 101,
+                "karma": 130,
+                "fpd_count": 2
+            }
+        },
+        {
+            "id": 230162,
+            "title": "Give away test - Siddharth",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 6,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230162/medium/desidime-logo.png?1482416960",
+            "score": 1,
+            "created_at": 1482416959000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/exclusive-giveaways/topics/give-away-test-siddharth?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 49,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/desidime"
+                },
+                "id": 262,
+                "name": "DesiDime",
+                "image": "https://cdnstaging.desidime.com/merchants/262/medium/logo-dsk-f29dc473637c1ef69172392b7852da8f.png?1482417765",
+                "permalink": "desidime",
+                "recommendation": 0,
+                "recommendation_flag": false,
+                "average_rating": "4.04"
+            },
+            "user": {
+                "id": 99179,
+                "name": "siddspy734",
+                "image": "http://cdn1.desidime.com/avatars/default/large/missing.png",
+                "rank": "Deal Subedar",
+                "current_dimes": 152,
+                "karma": 1108,
+                "fpd_count": 4
+            }
+        },
+        {
+            "id": 230160,
+            "title": "thread to check karma",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/222814/medium/white-royal-blu-navigator-lotto-9-200x200-imadzrghjyx9yuc8.jpeg?1467101185",
+            "score": -1,
+            "created_at": 1482407272000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/thread-to-check-karma?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 25,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 99063,
+                "name": "nayan gawande",
+                "image": "https://cdnstaging.desidime.com/avatars/99063/large/ex.gif?1480339346",
+                "rank": "Deal Cadet",
+                "current_dimes": 4524,
+                "karma": 215,
+                "fpd_count": 127
+            }
+        },
+        {
+            "id": 230141,
+            "title": "This  is for rank reduce",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 15,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230162/medium/desidime-logo.png?1482416960",
+            "score": 3,
+            "created_at": 1482321508000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/this-is-for-rank-reduce?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 201,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        },
+        {
+            "id": 230139,
+            "title": "top deal",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230162/medium/desidime-logo.png?1482416960",
+            "score": 3,
+            "created_at": 1482321346000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/top-deal?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 24,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        },
+        {
+            "id": 230138,
+            "title": "test giveaway karma",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230138/medium/desidime-logo.png?1482320833",
+            "score": -1,
+            "created_at": 1482320832000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/exclusive-giveaways/topics/test-giveaway-karma?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 26,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/desidime"
+                },
+                "id": 262,
+                "name": "DesiDime",
+                "image": "https://cdnstaging.desidime.com/merchants/262/medium/logo-dsk-f29dc473637c1ef69172392b7852da8f.png?1482417765",
+                "permalink": "desidime",
+                "recommendation": 0,
+                "recommendation_flag": false,
+                "average_rating": "4.04"
+            },
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        },
+        {
+            "id": 230088,
+            "title": "Just for FB Test..",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230088/medium/desidime-logo.png?1482319019",
+            "score": 2,
+            "created_at": 1482319018000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/exclusive-giveaways/topics/just-for-fb-test?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 3252,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/desidime"
+                },
+                "id": 262,
+                "name": "DesiDime",
+                "image": "https://cdnstaging.desidime.com/merchants/262/medium/logo-dsk-f29dc473637c1ef69172392b7852da8f.png?1482417765",
+                "permalink": "desidime",
+                "recommendation": 0,
+                "recommendation_flag": false,
+                "average_rating": "4.04"
+            },
+            "user": {
+                "id": 20,
+                "name": "anthrax.ut",
+                "image": "https://cdnstaging.desidime.com/avatars/20/large/Banner-For-Christmas-300X250.png?1482302511",
+                "rank": "Deal Captain",
+                "current_dimes": -16271,
+                "karma": 14864,
+                "fpd_count": 150
+            }
+        },
+        {
+            "id": 230108,
+            "title": "i m tagging product",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/222814/medium/white-royal-blu-navigator-lotto-9-200x200-imadzrghjyx9yuc8.jpeg?1467101185",
+            "score": -1,
+            "created_at": 1482232276000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/i-m-tagging-product?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 89,
+            "fpd_suggestted": false,
+            "merchant": {},
+            "user": {
+                "id": 99063,
+                "name": "nayan gawande",
+                "image": "https://cdnstaging.desidime.com/avatars/99063/large/ex.gif?1480339346",
+                "rank": "Deal Cadet",
+                "current_dimes": 4524,
+                "karma": 215,
+                "fpd_count": 127
+            }
+        },
+        {
+            "id": 230107,
+            "title": "ShopClues Exciting Christmas Sale Begins Upto 80% Off",
+            "off_percent": "82",
+            "current_price": 89,
+            "original_price": 499,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230107/medium/1024_768.jpg?1482229461",
+            "score": 2,
+            "created_at": 1482229462000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/shopclues-exciting-christmas-sale-begins-upto-80-off?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 100,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/shopclues"
+                },
+                "id": 363,
+                "name": "ShopClues",
+                "image": "https://cdnstaging.desidime.com/merchants/363/medium/ShopClues_beta.png?1330933717",
+                "permalink": "shopclues",
+                "recommendation": 2,
+                "recommendation_flag": false,
+                "average_rating": "2.9"
+            },
+            "user": {
+                "id": 99063,
+                "name": "nayan gawande",
+                "image": "https://cdnstaging.desidime.com/avatars/99063/large/ex.gif?1480339346",
+                "rank": "Deal Cadet",
+                "current_dimes": 4524,
+                "karma": 215,
+                "fpd_count": 127
+            }
+        },
+        {
+            "id": 230057,
+            "title": "thread is here...for link",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 7,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230057/medium/deals_new.png?1481721086",
+            "score": 2,
+            "created_at": 1481721079000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/thread-is-here-for-link?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 94,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/amazon-india"
+                },
+                "id": 502,
+                "name": "Amazon India",
+                "image": "https://cdnstaging.desidime.com/merchants/502/medium/deals_new.png?1468965722",
+                "permalink": "amazon-india",
+                "recommendation": 21,
+                "recommendation_flag": false,
+                "average_rating": "2.9"
+            },
+            "user": {
+                "id": 99590,
+                "name": "nayan12121313",
+                "image": "http://cdn1.desidime.com/avatars/default/large/missing.png",
+                "rank": "Deal Cadet",
+                "current_dimes": 233,
+                "karma": 325,
+                "fpd_count": 1
+            }
+        },
+        {
+            "id": 230068,
+            "title": "poiuytre",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230068/medium/becomeAfan.PNG?1481260476",
+            "score": 0,
+            "created_at": 1481260474000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/poiuytre?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 52,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/flipkart"
+                },
+                "id": 1,
+                "name": "Flipkart",
+                "image": "https://cdnstaging.desidime.com/merchants/1/medium/becomeAfan.PNG?1470143763",
+                "permalink": "flipkart",
+                "recommendation": 14,
+                "recommendation_flag": true,
+                "average_rating": "2.9"
+            },
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        },
+        {
+            "id": 230067,
+            "title": "thread",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 2,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230067/medium/becomeAfan.PNG?1481203251",
+            "score": 1,
+            "created_at": 1481203248000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/thread-1284daf7-b110-44da-b277-c4a820d2c743?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 37,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/flipkart"
+                },
+                "id": 1,
+                "name": "Flipkart",
+                "image": "https://cdnstaging.desidime.com/merchants/1/medium/becomeAfan.PNG?1470143763",
+                "permalink": "flipkart",
+                "recommendation": 14,
+                "recommendation_flag": true,
+                "average_rating": "2.9"
+            },
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        },
+        {
+            "id": 230066,
+            "title": "flipkart test deal 123",
+            "off_percent": "",
+            "current_price": 0,
+            "original_price": 0,
+            "comments_count": 1,
+            "image": "https://cdnstaging.desidime.com/topics/photos/230066/medium/becomeAfan.PNG?1481203165",
+            "score": 0,
+            "created_at": 1481203162000,
+            "vote_value": 0,
+            "share_url": "http://www.desidime.com/forums/hot-deals-online/topics/flipkart-test-deal-123?utm_campaign=DDUserReferral&utm_medium=whatsapp&utm_source=referral?utm_source=internal&utm_campaign=mobile_app&utm_medium=app_share",
+            "state": "live",
+            "view_count": 35,
+            "fpd_suggestted": false,
+            "merchant": {
+                "seo_setting": {
+                    "title": "Online Shopping India - Best Deals, Coupons, Freebies, Indian Online Shopping Community for Mobiles, Electronics, Games, Travel -- DesiDime",
+                    "description": "India's Fastest growing Online Shopping Community to find Hottest deals, Coupon codes and Freebies.",
+                    "keywords": "Online shopping, online shopping india, best deals, online deals, shopping deals, coupons, coupons india, discount offers, shopping online, shopping deals online",
+                    "web_url": "https://rails4.desidime.com/stores/flipkart"
+                },
+                "id": 1,
+                "name": "Flipkart",
+                "image": "https://cdnstaging.desidime.com/merchants/1/medium/becomeAfan.PNG?1470143763",
+                "permalink": "flipkart",
+                "recommendation": 14,
+                "recommendation_flag": true,
+                "average_rating": "2.9"
+            },
+            "user": {
+                "id": 91450,
+                "name": "akshadachavan1111",
+                "image": "https://cdnstaging.desidime.com/avatars/91450/large/unnamed.gif?1480066621",
+                "rank": "Deal Major",
+                "current_dimes": 10291,
+                "karma": 15154,
+                "fpd_count": 451
+            }
+        }
+    ]
+}

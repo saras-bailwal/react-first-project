@@ -1,0 +1,197 @@
+$primary: #006699;
+
+body {
+  height:100%;
+  width:100%;
+}
+h2 {
+	color: $primary;
+}
+
+.row.firstHeader {
+	background-color: #f1f1f1;
+}
+
+.input-group {
+	width: 370px;
+	background-color: #57BB63;
+}
+
+.col-md-4.logo {
+	padding: 10px 0px 10px 0px;
+}
+
+.input-group.search {
+	margin: 35px 10px 10px 0px;
+}
+
+.btn.btn-secondary {
+	background-color: #57BB63;
+	color: white;
+}
+
+.row.menubar {
+	text-decoration-color: white;
+	background-color: #1976d2;
+}
+.nav.navbar-nav.header>li>a {
+	color: white;
+	width: 100%;
+	height: 35px;
+	padding-top: 9px;
+	font-size: 12px;
+}
+.nav.navbar-nav.header>li {
+	padding-left: 20px;
+}
+
+
+.nav.navbar-nav.header>li>a:hover, .nav.navbar-nav.header>li>a:focus{
+	color: white;
+	background-color: #1976d2;
+}
+
+.second-header {
+	background-color: white;
+	width: 965px;
+	border: 1px solid lightgray;
+	padding: 19px;
+	margin: 20px;
+}
+
+.main-header {
+	background-color: white;
+	width: 965px;
+	border: 1px solid lightgray;
+	padding: 19px;
+	margin: 35px;
+}
+
+
+.main {
+	width: 964px;
+	color: gray;
+  margin: 35px;
+}
+.sub-main {
+		border: 1px solid lightgray;
+    width: 210px;
+    margin: 10px;
+		float: left;
+		height: 300px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+		position: relative;
+}
+
+.btn.btn-secondary.getdeal {
+	float: right;
+	margin: 2px;
+  padding: 0px 5px 0px 3px;
+}
+
+.auth {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: lightgray;
+	border: 1px solid lightgray;
+}
+
+.merchant-btn {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 32px 0px 23px 0px;
+}
+
+.price {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 0px 0px 95px 0px;
+
+}
+
+.price-off {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 0px 0px 65px 0px;
+}
+
+.price-now {
+	float: left;
+	color: #1976d2;
+	font-size: 18px;
+}
+
+.discount {
+	float: left;
+	color: #1976d2;
+	font-size: 16px;
+}
+
+.orig-cost {
+	text-decoration: line-through;
+	float: left;
+}
+
+.merchant-name {
+	color: black;
+	font-size: 12px;
+	float: left;
+	margin: 6px;
+}
+
+.auth-name {
+	font-size: 12px;
+	float: left;
+}
+
+.nav.navbar-nav.swipes{
+	margin: -20px;
+	margin-top: -24px;
+}
+
+.nav.navbar-nav.swipes>li>a:hover {
+	background-color: transparent;
+	color: #57BB63;
+}
+
+.active {
+	font-size: 1.20em;
+	border-bottom-style: solid;
+	height: 45px;
+	color: #57BB63;
+}
+
+.top-slide-image {
+	width: 150px;
+	margin: 20px 0px 10px 0px;
+}
+
+.top-slide-text {
+	color: black;
+	font-size: 16px;
+}
+
+.top-text {
+	color: black;
+	font-size: 12px;
+}
+
+.swiper-container {
+        width: 970px;
+        height: 200px;
+        margin-left: 35px;
+    }
+    .swiper-slide {
+				border: 1px solid lightgray;
+				width: 210px;
+    		margin-right: 30px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    }
